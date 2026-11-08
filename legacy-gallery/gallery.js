@@ -20,6 +20,10 @@ async function show(page){
  const htmlPath=page||version.path;
  if(!version.pages.includes(htmlPath))throw Error('Invalid archive page');
  let html=await (await resource(htmlPath)).text();if(current!==generation)return;
+ // Vercel may add its toolbar after serving the stored HTML. The archive has
+ // no application scripts; keep that injected UI outside the isolated frame.
+ html=html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'');
+ html=html.replace(/<link\b(?=[^>]*\bas=["']font["'])[^>]*>/gi,'');
  html=rewrite(html,urls);
  const policy="default-src 'none'; script-src data: 'unsafe-inline'; style-src data: 'unsafe-inline' https://fonts.googleapis.com; img-src data:; font-src data: https://fonts.gstatic.com; connect-src data:; media-src data:; form-action 'none'; frame-src 'none'; worker-src 'none'";
  const sandbox=await (await resource('/legacy/sandbox.js')).text();

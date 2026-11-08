@@ -13,6 +13,8 @@ const walk = dir => fs.readdirSync(dir, {withFileTypes: true}).flatMap(e => e.is
 fs.rmSync(output, {recursive:true, force:true});
 fs.mkdirSync(path.join(output,'legacy'), {recursive:true});
 fs.cpSync(path.join(root,'legacy-gallery'),path.join(output,'legacy'),{recursive:true});
+const icon=rows[0].files.find(file=>file.path==='src/app/favicon.ico');
+if(icon)fs.copyFileSync(path.join(source,'blobs',icon.uid),path.join(output,'favicon.ico'));
 fs.writeFileSync(path.join(output,'index.html'), '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=/legacy/"><a href="/legacy/">Legacy samples</a>');
 fs.writeFileSync(path.join(output,'robots.txt'), 'User-agent: *\nDisallow: /\n');
 const versions=[];
