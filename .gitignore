@@ -46,6 +46,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# Generated static archive; rebuilt from checksum-verified source artifacts.
+/legacy-preview/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
