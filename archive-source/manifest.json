@@ -1,0 +1,494 @@
+[
+  {
+    "id": "dpl_BScWjLP9Zw1grUqHMiJ9VbbJVF5X",
+    "project": "riseroofingav",
+    "files": [
+      {
+        "path": "README.md",
+        "uid": "7ba16f1bf099196063e5d413cf00a5aa850b043d"
+      },
+      {
+        "path": "eslint.config.mjs",
+        "uid": "44d5bed565a8dd284af3e17f3b16a1c752008d0e"
+      },
+      {
+        "path": "next-env.d.ts",
+        "uid": "9bfff799abb9a4d30186f7a8b68f91ac35157611"
+      },
+      {
+        "path": "next.config.ts",
+        "uid": "89327ac52fc9a00fb8b885afd6654f18e58b3156"
+      },
+      {
+        "path": "package-lock.json",
+        "uid": "3b35163d9c84935799e6dde10498c2a40119c9fd"
+      },
+      {
+        "path": "package.json",
+        "uid": "65c5b94c9171bfa0f2237cf335e46e001a121832"
+      },
+      {
+        "path": "postcss.config.mjs",
+        "uid": "8f8be689e9af58f80351df6e6b551146822f42a4"
+      },
+      {
+        "path": "public/brand/rise-roofing-logo-alt.png",
+        "uid": "ca4319fa6dac96dfaff2961bc884ff2c75168598"
+      },
+      {
+        "path": "public/brand/rise-roofing-logo-primary.png",
+        "uid": "1d071ad7cecb80dd0c4c8d8234c76ca8b7d2b9a9"
+      },
+      {
+        "path": "public/brand/rise-roofing-mark.png",
+        "uid": "8ea81877abf2851813be6391ac759b8b19c897a3"
+      },
+      {
+        "path": "public/file.svg",
+        "uid": "fb380eeffe87d50b597383664c02982964d0d28c"
+      },
+      {
+        "path": "public/globe.svg",
+        "uid": "2eba23b01a46733bb8423e6d38ebf5f7e95abec5"
+      },
+      {
+        "path": "public/next.svg",
+        "uid": "3f3e95622612b989c5bd6a03299a308c6f3c7e6b"
+      },
+      {
+        "path": "public/site/cta-finished-roof-project.jpg",
+        "uid": "6362941952d0e78bac3d0f4181c3342ab8dea0d0"
+      },
+      {
+        "path": "public/site/hero-commercial-roofing.jpg",
+        "uid": "07834e5011848d8ae7d6673175fae4ab234e36fe"
+      },
+      {
+        "path": "public/site/hero-emergency-roofing.jpg",
+        "uid": "085ab41425e772406e08439ea750afbe593becbe"
+      },
+      {
+        "path": "public/site/hero-residential-roofing.jpg",
+        "uid": "03a84c10fb3777b297db83f8026ac204f6b94794"
+      },
+      {
+        "path": "public/site/hero-roof-inspections.jpg",
+        "uid": "439be589addb5622b7e4a46f67f7c5ba7910030d"
+      },
+      {
+        "path": "public/site/hero-roof-repair.jpg",
+        "uid": "fca552ff5cdf997155930f5e535df550309da9bc"
+      },
+      {
+        "path": "public/site/hero-roof-replacement.jpg",
+        "uid": "c5ef0e163b4abf223f24ef4ee5adee15595fd90d"
+      },
+      {
+        "path": "public/site/hero-storm-damage-roofing.jpg",
+        "uid": "11658e02e16effc12b14de045e9ebe9bdad1a41a"
+      },
+      {
+        "path": "public/site/home-hero-los-angeles-roofing.jpg",
+        "uid": "20624c2e65e8b2da469ff935334bcece0ff17853"
+      },
+      {
+        "path": "public/site/og-rise-roofing.jpg",
+        "uid": "a8f2d82798b56d98a2d74f981f036a47ac8089a8"
+      },
+      {
+        "path": "public/site/repair-a.jpg",
+        "uid": "06693f2869a299231d684886077423e4fe2cc9ad"
+      },
+      {
+        "path": "public/site/section-expert-roofing-team.jpg",
+        "uid": "de296ec53579dcbf36026d364d4ad05816068f38"
+      },
+      {
+        "path": "public/site/section-local-roofing-la.jpg",
+        "uid": "be23f976213550c9ebddbdfb49201d8edb2ef141"
+      },
+      {
+        "path": "public/site/service-emergency-roofing.jpg",
+        "uid": "0d62fc780c01cb645455ae0e723812f0b54513f1"
+      },
+      {
+        "path": "public/site/service-roof-inspection.jpg",
+        "uid": "9039f70cc8d13643c020fdbb8015f445ff88f3f3"
+      },
+      {
+        "path": "public/site/service-roof-repair.jpg",
+        "uid": "d768a314539ac3ca840f440cd225ca05b6b65dd3"
+      },
+      {
+        "path": "public/site/service-roof-replacement.jpg",
+        "uid": "bcfa9d801c81ae7ef168403c5af104e35582acf1"
+      },
+      {
+        "path": "public/vercel.svg",
+        "uid": "cebb8852d58c8886be3e9051a26957f42bb82f1a"
+      },
+      {
+        "path": "public/window.svg",
+        "uid": "54c48e0daa6caa317fe1b4c419007fd93e948db9"
+      },
+      {
+        "path": "src/app/actions.ts",
+        "uid": "a54b137684ea4f20bf6cc17b91806934959dd1de"
+      },
+      {
+        "path": "src/app/admin/page.tsx",
+        "uid": "1a3a8f756f2ca5396d3abbe60c54be00946fd6bc"
+      },
+      {
+        "path": "src/app/api/auth/google/route.ts",
+        "uid": "ad9d9ed0cf71a0c8bae00030f9230da0553791e8"
+      },
+      {
+        "path": "src/app/api/reports/export/route.ts",
+        "uid": "ea34391cf9c6796bd4a61e52faf0ff4abe58fc14"
+      },
+      {
+        "path": "src/app/api/reports/weekly/route.ts",
+        "uid": "1583b44ffd98c15f33985262d065ad2650a9e344"
+      },
+      {
+        "path": "src/app/favicon.ico",
+        "uid": "be838053146434a361aa67d78678c89687d00e7e"
+      },
+      {
+        "path": "src/app/globals.css",
+        "uid": "88df75859005fd368598cbca83c6b9e3218b3c43"
+      },
+      {
+        "path": "src/app/icon.png",
+        "uid": "5d92b14cf0d5887466f46806328ae6ef2deca79c"
+      },
+      {
+        "path": "src/app/layout.tsx",
+        "uid": "8d8b82575d25204f02f4be623b247f0a1c268cb8"
+      },
+      {
+        "path": "src/app/page.tsx",
+        "uid": "5a80f53cf7d5909f7c2726861bf57918a572efda"
+      },
+      {
+        "path": "src/app/service-areas/page.tsx",
+        "uid": "2faa398af6c48b0175b18400697769a71f83e96a"
+      },
+      {
+        "path": "src/app/services/[slug]/page.tsx",
+        "uid": "097b046f6a2e1dbfe58eb550fb0944e91cc52a7d"
+      },
+      {
+        "path": "src/app/services/page.tsx",
+        "uid": "ae081ba5c76de35723f54c191e6e35cebcd84456"
+      },
+      {
+        "path": "src/app/sitemap.ts",
+        "uid": "743345837d47807f21039f8e418db7ef3487aa6f"
+      },
+      {
+        "path": "src/components/attendance/google-sign-in.tsx",
+        "uid": "d012cb4aa6eaad190d69e81105d25283204e4443"
+      },
+      {
+        "path": "src/components/attendance/submit-button.tsx",
+        "uid": "dbb0d6969d96528e85ec3337f61046793ff1750c"
+      },
+      {
+        "path": "src/components/site-footer.tsx",
+        "uid": "0985a6edb2f00998888c95c365bb7590996bc156"
+      },
+      {
+        "path": "src/components/site-header.tsx",
+        "uid": "6a911a119b041657b08121620e9242704c3cefcc"
+      },
+      {
+        "path": "src/lib/attendance/auth.ts",
+        "uid": "2e34f812318ced011c1716445ca35f9e16741e18"
+      },
+      {
+        "path": "src/lib/attendance/config.ts",
+        "uid": "ce134c59e829695c93a4e9c6009e5f35ce816722"
+      },
+      {
+        "path": "src/lib/attendance/reports.ts",
+        "uid": "5aa859b01c60b2ac617f8cb1ff7513b2f7629b85"
+      },
+      {
+        "path": "src/lib/attendance/selectors.ts",
+        "uid": "0080879e16c14b2799bea31f9e8296f625ab3b2a"
+      },
+      {
+        "path": "src/lib/attendance/store.ts",
+        "uid": "8a3e3fce61d98e5fe725041db08c23918d56482b"
+      },
+      {
+        "path": "src/lib/attendance/time.ts",
+        "uid": "0d352b6d683b5d744d7c940bf1c59677b3a8d118"
+      },
+      {
+        "path": "src/lib/attendance/types.ts",
+        "uid": "dc000ac4076df228bde970dcffafade99d08021f"
+      },
+      {
+        "path": "src/lib/site-config.ts",
+        "uid": "84b249a543f32ed0ec2daafcce1fd469645ba0fc"
+      },
+      {
+        "path": "tsconfig.json",
+        "uid": "27dded29dc880f958ee67c9ed276fb2b1412f515"
+      },
+      {
+        "path": "vercel.json",
+        "uid": "d99d4302113a389e33e7507488ab012d438131b5"
+      }
+    ]
+  },
+  {
+    "id": "dpl_HTjjqgXd1yQso9qj2gRWTFXnToFd",
+    "project": "riseroofingav-deploy",
+    "files": [
+      {
+        "path": "README.md",
+        "uid": "7ba16f1bf099196063e5d413cf00a5aa850b043d"
+      },
+      {
+        "path": "eslint.config.mjs",
+        "uid": "44d5bed565a8dd284af3e17f3b16a1c752008d0e"
+      },
+      {
+        "path": "next-env.d.ts",
+        "uid": "9bfff799abb9a4d30186f7a8b68f91ac35157611"
+      },
+      {
+        "path": "next.config.ts",
+        "uid": "89327ac52fc9a00fb8b885afd6654f18e58b3156"
+      },
+      {
+        "path": "package-lock.json",
+        "uid": "3b35163d9c84935799e6dde10498c2a40119c9fd"
+      },
+      {
+        "path": "package.json",
+        "uid": "65c5b94c9171bfa0f2237cf335e46e001a121832"
+      },
+      {
+        "path": "postcss.config.mjs",
+        "uid": "8f8be689e9af58f80351df6e6b551146822f42a4"
+      },
+      {
+        "path": "public/brand/rise-roofing-logo-alt.png",
+        "uid": "ca4319fa6dac96dfaff2961bc884ff2c75168598"
+      },
+      {
+        "path": "public/brand/rise-roofing-logo-primary.png",
+        "uid": "1d071ad7cecb80dd0c4c8d8234c76ca8b7d2b9a9"
+      },
+      {
+        "path": "public/brand/rise-roofing-mark.png",
+        "uid": "8ea81877abf2851813be6391ac759b8b19c897a3"
+      },
+      {
+        "path": "public/file.svg",
+        "uid": "fb380eeffe87d50b597383664c02982964d0d28c"
+      },
+      {
+        "path": "public/globe.svg",
+        "uid": "2eba23b01a46733bb8423e6d38ebf5f7e95abec5"
+      },
+      {
+        "path": "public/next.svg",
+        "uid": "3f3e95622612b989c5bd6a03299a308c6f3c7e6b"
+      },
+      {
+        "path": "public/site/cta-finished-roof-project.jpg",
+        "uid": "6362941952d0e78bac3d0f4181c3342ab8dea0d0"
+      },
+      {
+        "path": "public/site/hero-commercial-roofing.jpg",
+        "uid": "07834e5011848d8ae7d6673175fae4ab234e36fe"
+      },
+      {
+        "path": "public/site/hero-emergency-roofing.jpg",
+        "uid": "085ab41425e772406e08439ea750afbe593becbe"
+      },
+      {
+        "path": "public/site/hero-residential-roofing.jpg",
+        "uid": "03a84c10fb3777b297db83f8026ac204f6b94794"
+      },
+      {
+        "path": "public/site/hero-roof-inspections.jpg",
+        "uid": "439be589addb5622b7e4a46f67f7c5ba7910030d"
+      },
+      {
+        "path": "public/site/hero-roof-repair.jpg",
+        "uid": "fca552ff5cdf997155930f5e535df550309da9bc"
+      },
+      {
+        "path": "public/site/hero-roof-replacement.jpg",
+        "uid": "c5ef0e163b4abf223f24ef4ee5adee15595fd90d"
+      },
+      {
+        "path": "public/site/hero-storm-damage-roofing.jpg",
+        "uid": "11658e02e16effc12b14de045e9ebe9bdad1a41a"
+      },
+      {
+        "path": "public/site/home-hero-los-angeles-roofing.jpg",
+        "uid": "20624c2e65e8b2da469ff935334bcece0ff17853"
+      },
+      {
+        "path": "public/site/og-rise-roofing.jpg",
+        "uid": "a8f2d82798b56d98a2d74f981f036a47ac8089a8"
+      },
+      {
+        "path": "public/site/repair-a.jpg",
+        "uid": "06693f2869a299231d684886077423e4fe2cc9ad"
+      },
+      {
+        "path": "public/site/section-expert-roofing-team.jpg",
+        "uid": "de296ec53579dcbf36026d364d4ad05816068f38"
+      },
+      {
+        "path": "public/site/section-local-roofing-la.jpg",
+        "uid": "be23f976213550c9ebddbdfb49201d8edb2ef141"
+      },
+      {
+        "path": "public/site/service-emergency-roofing.jpg",
+        "uid": "0d62fc780c01cb645455ae0e723812f0b54513f1"
+      },
+      {
+        "path": "public/site/service-roof-inspection.jpg",
+        "uid": "9039f70cc8d13643c020fdbb8015f445ff88f3f3"
+      },
+      {
+        "path": "public/site/service-roof-repair.jpg",
+        "uid": "d768a314539ac3ca840f440cd225ca05b6b65dd3"
+      },
+      {
+        "path": "public/site/service-roof-replacement.jpg",
+        "uid": "bcfa9d801c81ae7ef168403c5af104e35582acf1"
+      },
+      {
+        "path": "public/vercel.svg",
+        "uid": "cebb8852d58c8886be3e9051a26957f42bb82f1a"
+      },
+      {
+        "path": "public/window.svg",
+        "uid": "54c48e0daa6caa317fe1b4c419007fd93e948db9"
+      },
+      {
+        "path": "src/app/actions.ts",
+        "uid": "a54b137684ea4f20bf6cc17b91806934959dd1de"
+      },
+      {
+        "path": "src/app/admin/page.tsx",
+        "uid": "1a3a8f756f2ca5396d3abbe60c54be00946fd6bc"
+      },
+      {
+        "path": "src/app/api/auth/google/route.ts",
+        "uid": "ad9d9ed0cf71a0c8bae00030f9230da0553791e8"
+      },
+      {
+        "path": "src/app/api/reports/export/route.ts",
+        "uid": "ea34391cf9c6796bd4a61e52faf0ff4abe58fc14"
+      },
+      {
+        "path": "src/app/api/reports/weekly/route.ts",
+        "uid": "1583b44ffd98c15f33985262d065ad2650a9e344"
+      },
+      {
+        "path": "src/app/favicon.ico",
+        "uid": "be838053146434a361aa67d78678c89687d00e7e"
+      },
+      {
+        "path": "src/app/globals.css",
+        "uid": "88df75859005fd368598cbca83c6b9e3218b3c43"
+      },
+      {
+        "path": "src/app/icon.png",
+        "uid": "5d92b14cf0d5887466f46806328ae6ef2deca79c"
+      },
+      {
+        "path": "src/app/layout.tsx",
+        "uid": "8d8b82575d25204f02f4be623b247f0a1c268cb8"
+      },
+      {
+        "path": "src/app/page.tsx",
+        "uid": "5a80f53cf7d5909f7c2726861bf57918a572efda"
+      },
+      {
+        "path": "src/app/service-areas/page.tsx",
+        "uid": "2faa398af6c48b0175b18400697769a71f83e96a"
+      },
+      {
+        "path": "src/app/services/[slug]/page.tsx",
+        "uid": "097b046f6a2e1dbfe58eb550fb0944e91cc52a7d"
+      },
+      {
+        "path": "src/app/services/page.tsx",
+        "uid": "ae081ba5c76de35723f54c191e6e35cebcd84456"
+      },
+      {
+        "path": "src/app/sitemap.ts",
+        "uid": "743345837d47807f21039f8e418db7ef3487aa6f"
+      },
+      {
+        "path": "src/components/attendance/google-sign-in.tsx",
+        "uid": "d012cb4aa6eaad190d69e81105d25283204e4443"
+      },
+      {
+        "path": "src/components/attendance/submit-button.tsx",
+        "uid": "dbb0d6969d96528e85ec3337f61046793ff1750c"
+      },
+      {
+        "path": "src/components/site-footer.tsx",
+        "uid": "0985a6edb2f00998888c95c365bb7590996bc156"
+      },
+      {
+        "path": "src/components/site-header.tsx",
+        "uid": "6a911a119b041657b08121620e9242704c3cefcc"
+      },
+      {
+        "path": "src/lib/attendance/auth.ts",
+        "uid": "2e34f812318ced011c1716445ca35f9e16741e18"
+      },
+      {
+        "path": "src/lib/attendance/config.ts",
+        "uid": "ce134c59e829695c93a4e9c6009e5f35ce816722"
+      },
+      {
+        "path": "src/lib/attendance/reports.ts",
+        "uid": "5aa859b01c60b2ac617f8cb1ff7513b2f7629b85"
+      },
+      {
+        "path": "src/lib/attendance/selectors.ts",
+        "uid": "0080879e16c14b2799bea31f9e8296f625ab3b2a"
+      },
+      {
+        "path": "src/lib/attendance/store.ts",
+        "uid": "8a3e3fce61d98e5fe725041db08c23918d56482b"
+      },
+      {
+        "path": "src/lib/attendance/time.ts",
+        "uid": "0d352b6d683b5d744d7c940bf1c59677b3a8d118"
+      },
+      {
+        "path": "src/lib/attendance/types.ts",
+        "uid": "dc000ac4076df228bde970dcffafade99d08021f"
+      },
+      {
+        "path": "src/lib/site-config.ts",
+        "uid": "84b249a543f32ed0ec2daafcce1fd469645ba0fc"
+      },
+      {
+        "path": "tsconfig.json",
+        "uid": "27dded29dc880f958ee67c9ed276fb2b1412f515"
+      },
+      {
+        "path": "vercel.json",
+        "uid": "d99d4302113a389e33e7507488ab012d438131b5"
+      }
+    ]
+  }
+]
